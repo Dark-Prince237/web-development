@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Nav Bar</title>
+
+    <style>
+          #ul1
+            {
+                margin-left:-40px;
+                margin-top:0px;
+               
+              
+            }
+            #ul1 li
+            {
+                list-style-type: none;
+                display: inline-block;
+                margin:-8px;
+                text-align: center;
+                box-sizing: border-box;
+                padding-top: 20px;
+                border-right:1px solid white;
+                cursor: pointer;
+                
+                
+                
+
+            }
+
+            #ul1 li:not(:last-child)
+            {
+                width:100px;
+                height:60px;
+            }
+
+            #ul1 li:last-child
+            {
+                width:1186px;
+                height: 60px;
+                text-align: left;
+                padding-left:10px;
+            }
+
+            #ul1 li:first-child
+            {
+                background-color:rgb(4,170,109);
+                color:white;
+            }
+
+            #ul1 li:nth-child(n+2)
+            {
+                background-color:rgb(51,51,51);
+                color:white;
+
+            }
+
+            #ul1 li:hover
+            {
+                background-color:red;
+            }
+
+            /* bar2 */
+
+        #ul2
+        {
+            
+           margin-top:-7px;
+           margin-left: 127px;
+          
+        
+        }
+
+        
+        #ul2 li
+        {
+            list-style-type: none;
+            
+            width:400px;
+            height:40px;
+            padding:11px;
+            font-size:20px;
+            background-color: rgb(249,249,249);
+            cursor: pointer;
+        }
+
+        
+        #ul2 li:hover 
+        {
+            background-color:rgb(241,241,241);
+            color:black;
+            
+        }
+       
+    </style>
+    
+  
+</head>
+<body>
+    <ul id="ul1">
+        <li>Home</li>
+        <li>News</li>
+        <li id="drop" >Dropdown</li>
+       
+    </ul>
+
+    <ul id="ul2">
+        <li >Link 1</li>
+        <li >Link 2</li>
+        <li >Link 3</li>
+    </ul>
+
+</body>
+<script>
+    let drop=document.getElementById("drop");
+    let bar2=document.getElementById("ul2");
+    
+    
+    drop.addEventListener("mouseover",function()
+    {
+        bar2.style.display="block";
+    });
+   bar2.addEventListener("mouseout",function()
+    {
+        
+        bar2.style.display="none";
+    });
+   
+</script>
+</html>
