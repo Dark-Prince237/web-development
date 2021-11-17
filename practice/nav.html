@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vertical navigation</title>
+
+    <style>
+        ul
+        {
+            margin:100px;
+        
+        }
+        li
+        {
+            list-style-type: none;
+            border:1px solid black;
+            width:400px;
+            height:40px;
+            padding:11px;
+            font-size:20px;
+            background-color: rgb(241,241,241);
+        }
+
+        li:first-child
+        {
+            background-color:rgb(4,170,109);
+            color:white;
+        }
+        /* after first li select */
+        li:nth-child(n+2):hover 
+        {
+            background-color:rgb(51,51,51);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+</body>
+</html>
