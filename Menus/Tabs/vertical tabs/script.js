@@ -27,7 +27,7 @@ for(i=0;i<box.length;i++)
         else
         {
             prt.firstElementChild.innerHTML="Amritsar"
-            prt.firstElementChild.nextElementSibling.innerHTML="Amritsar is the capital city Punjab.";
+            prt.firstElementChild.nextElementSibling.innerHTML="Amritsar is the capital city  of Punjab.";
 
         }
     });

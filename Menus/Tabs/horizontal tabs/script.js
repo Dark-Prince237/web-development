@@ -19,7 +19,7 @@ for(i=0;i<box.length;i++)
         }
         else if(this.innerHTML=="Banglore")
         {
-            prt.firstElementChild.nextElementSibling.innerHTML="Banglore";
+            prt.firstElementChild.nextElemzentSibling.innerHTML="Banglore";
             prt.firstElementChild.nextElementSibling.nextElementSibling.innerHTML="Banglore is the capital city of Karnataka.";
 
         }
@@ -27,7 +27,7 @@ for(i=0;i<box.length;i++)
         else
         {
             prt.firstElementChild.nextElementSibling.innerHTML="Amritsar"
-            prt.firstElementChild.nextElementSibling.nextElementSibling.innerHTML="Amritsar is the capital city Punjab.";
+            prt.firstElementChild.nextElementSibling.nextElementSibling.innerHTML="Amritsar is the capital city of Punjab.";
 
         }
     });
