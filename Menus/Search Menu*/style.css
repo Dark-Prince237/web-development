@@ -1,0 +1,68 @@
+#menu
+{
+    border:1px solid black;
+    width:30%;
+    height:600px;
+    background-color: rgb(187,187,187);
+    cursor: default;
+    float: left;
+}
+    
+#menu p
+{
+    font-size:40px;
+    padding-left: 10px;
+}
+
+input
+{
+    width:396px;
+    height: 50px;
+    font-size:30px;
+    
+}
+input::placeholder
+{
+    font-size:25px;
+    padding-left: 20px;
+}
+li
+{
+    list-style-type: none;
+    font-size:30px ;
+    padding:4px 10px;
+    
+    margin-left:-39px;
+    cursor: pointer;
+}
+li:hover
+{
+    background-color: rgb(238,238,238);
+}
+
+#side
+{
+    border:1px solid;
+    width:69%;
+    height:600px;
+    float:left;
+    background-color: rgb(221,221,221);
+}
+
+#side h1
+{
+    padding-left:10px;
+}
+
+#side p
+{
+    padding-left:10px;
+    font-size: 20px;
+}
+
+
+
+.box
+{
+    display:block;
+}
