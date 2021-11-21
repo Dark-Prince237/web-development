@@ -26,11 +26,13 @@
 {
     position:fixed;
     border:1px solid black;
-    width:356px;
+    width:1370px;
     height:100%;
     top:0px;
     left:0px;
     background-color: rgb(17,17,17);
+    text-align: center;
+    opacity:0.9;
     
 }
 
@@ -38,7 +40,7 @@
 {
    
     
-    margin:10px 310px;
+    margin:10px 1310px;
     width:20px;
     font-size: 30px;
     color:rgb(120,120,120);
@@ -56,8 +58,8 @@
 {
     
     list-style-type: none;
-    font-size: 40px;
-    padding:10px 0px;
+    font-size: 50px;
+    padding:30px 0px;
     color:rgb(120,120,120);
     cursor: pointer;
 }
@@ -71,7 +73,7 @@
 .side
 {
     
-  margin-left:-640px; 
+  margin-left:-1390px; 
   transition-property: all;
   transition-duration:2s;
   transition-timing-function: ease;
