@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     
-    <title>login form</title>
-    <h1>Login Form</h1>
-    <form>
-    <div id="container">
-        <div id="inner-container">
-         <img src="image.png">
+    <title> modal login form</title>
+   
+    
+    <div class="container">
+        <b>Modal Login Form</b><br><br>
+        <button onclick="loginUp()">Login</button>
+        <div class="inner-container">
+            <form>
+            
+                <p id="close" onclick="closeLogin()">x</p>
+           
+             <img src="image.png">
          
             <label for="user"><b>Username</b></label>
             <input type="text" placeholder="Enter username" id="user" required><br><br>
@@ -19,15 +25,14 @@
             <input type="password" placeholder="Enter Password" id="pass" required><br><br>
             <input type="submit" value="Login"><br><br>
             <input type="checkbox" checked> Remember me<br>
-         
-        </div>
-
-            
-        <input type="reset" value="cancel">
-    </form>
-        <span>Forget </span><a href="#">password?</a> 
+            <input type="reset" value="cancel">
+            <span>Forget </span><a href="#">password?</a>
+            </div>
+        </form>
        
     </div>
+
+    
 
 </head>
 <body>
