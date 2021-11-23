@@ -6,40 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     
-    <title> modal signup form</title>
+    <title> modal login form</title>
    
- </head>  
-    <body>
+ </head> 
+
+ <body>
     <div class="container">
-        <b>Modal Signup Form</b><br><br>
-        <button onclick="loginUp()">Sign Up</button>
+        <b>Modal Login Form</b><br><br>
+        <button onclick="loginUp()">Login</button>
         <div class="inner-container">
             <form>
             
                 <p id="close" onclick="closeLogin()">x</p>
            
-                <h3>Sign Up</h3>
-                    <p id="please">Please fill in this form to create an account.</p>
+             <img src="image.png">
          
-            <label for="user"><b>Email</b></label>
+            <label for="user"><b>Username</b></label>
             <input type="text" placeholder="Enter username" id="user" required><br><br>
             <label for="pass"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" id="pass" required><br><br>
-            <label for="repeat"><b>Repeat Password</b></label>
-            <input type="text" placeholder="Repeat Password" id="repeat" required><br><br>
-           
-            
+            <input type="submit" value="Login"><br><br>
             <input type="checkbox" checked> Remember me<br>
-            <span>By creating an account you agree to our  </span><a href="#">Terms & Privacy.  </a><br>
-            <input type="button" value="cancel" onclick="closeLogin()">
-            <input type="submit" value="Sign Up">
-            
+            <input type="reset" value="cancel">
+            <span>Forget </span><a href="#">password?</a>
             </div>
         </form>
        
-    </div>
-
-</body>     
-
+    </div>    
+</body>
 <script src="script.js"></script>
 </html> 

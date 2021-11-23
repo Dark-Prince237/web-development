@@ -21,22 +21,12 @@ body
     width:50%;
     height:670px;
     background-color:rgb(255,255,255);
-    margin:160px 290px;
+    margin:160px 270px;
     position:absolute;
     top:-50px;
     display: none;
 
 } 
-
-h3
-{
-    margin-left: 10px;
-}
-
-#please
-{
-    margin-left: 10px;
-}
 button
 {
     width:120px;
@@ -47,7 +37,12 @@ button
 }
 
 
-
+img
+{
+    width:200px;
+    border-radius:100%;
+    padding:20px 250px;
+}
 
 form 
 {
@@ -97,43 +92,25 @@ input[type="submit"]:hover
     opacity: 0.8;
 }
 
-input[type="button"]
-{   width:310px;
+input[type="reset"]
+{   width:70px;
     height:40px;
-    margin-left:15px;
+    margin-left:10px;
     background-color: red;
     color:white;
     border:none;
-    margin-top:20px;
+    margin-top:30px;
 }
-
-input[type="button"]:hover
-{
-    opacity:0.6;
-}
-input[type="submit"]
-{   width:310px;
-    height:40px;
-    margin-left:10px;
-    background-color:rgb(29,178,123);
-    color:white;
-    border:none;
-    margin-top:20px;
-}
-
-
 
 input[type="checkbox"]
 {
     margin-left:10px;
-    margin-bottom:20px;
 }
 
 
-span,a
+span
 {
-    font-size: 20px;
-    margin-left:10px;
+    margin-left:350px;
 
 
 }
@@ -146,16 +123,14 @@ span,a
 #close
 {
    position:absolute;
-   top:-150px;
-   right:-50px;
-   font-size:60px;
-   color:white;
+   top:0px;
+   right:40px;
 }
 
 #close:hover
 {
     color:red;
-    
+    transform: scale(2);
     cursor: pointer;
     
 }
