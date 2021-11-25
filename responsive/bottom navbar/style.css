@@ -1,0 +1,115 @@
+.div1
+{
+    width:100%;
+    border:1px solid black;
+    height:540px;
+    box-sizing: border-box;
+    padding:0px 15px;
+}
+
+.div2
+{
+    border:1px solid black;
+    width:100%;
+    height:64px;
+    font-size:32px;
+    display: inline-block;
+   
+    
+    background-color:rgb(51,51,51);
+}
+
+.div2 a,span
+{
+    
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    display:inline-block;
+    padding:14px;
+    margin-top:-2px;
+  
+ 
+}
+
+.div2 a:first-child
+{
+    background-color: rgb(4,170,109);
+    margin-right: -7px;
+}
+
+.div2 a:not(:first-child):hover
+{
+    background-color: rgb(221,221,221);
+    color:black;
+}
+
+.div2 span
+{
+    float:right;
+    display:none;
+}
+.div2 span:hover
+{
+   background-color: rgb(221,221,221);
+    color:black;
+    cursor:pointer;
+}
+
+@media screen and (max-width:796px)
+{
+    .div2 a:not(:first-child)
+    {
+       display: none;
+    }
+    .div2 span
+    {
+        display: inline-block;
+        position:relative;
+        right:0px;
+        bottom:0px;
+        background-color:rgb(51,51,51);
+        color:white;
+        
+    }   
+}
+
+@media screen and (max-width:796px)
+{
+    
+    .div2.menu span
+    {
+        bottom:62px;
+        right:0px;
+    }
+    .div2.menu 
+    {
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        height:250px;
+        
+        
+    }
+
+    .div2.menu a
+    {
+        display:block;
+       
+        
+        
+    }
+
+    .div2.menu a:not(:first-child)
+    {
+        background-color:rgb(51,51,51);
+    }
+    .div2.menu a:not(:first-child):hover
+    {
+        background-color:rgb(221,221,221);
+    }
+
+    
+    
+}
+
