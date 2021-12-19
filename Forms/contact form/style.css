@@ -1,0 +1,66 @@
+#inner-container
+{
+    width:97%;
+    height:600px;
+    border:1px solid black;
+    margin:0px 0px;
+    background-color: rgb(242,242,242);
+    font-size:20px;
+    padding:20px;
+}
+
+input[type="text"]
+{
+    width:97%;
+    height:40px;
+    margin:10px 10px;
+    font-size:20px;
+    border-radius: 4px;
+  
+}
+
+label
+{
+    margin:0px 10px;
+}
+
+select 
+{
+    width:97%;
+    height:40px;
+    margin:10px 10px;
+    background-color: rgb(221,221,221);
+    border-radius: 4px;
+    
+    
+}
+
+
+textarea
+{
+    width:97%;
+    height:200px;
+    margin:10px 10px;
+    font-size:20px;
+    border-radius: 4px;
+    resize:vertical ;
+    
+}
+
+input[type="submit"]
+{
+    width:100px;
+    height:40px;
+    margin:10px 10px;
+    background-color: rgb(4,170,109);
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+}
+
+input[type="submit"]:hover
+{
+    opacity:0.9;
+}

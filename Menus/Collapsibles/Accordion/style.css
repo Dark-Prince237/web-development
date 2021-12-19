@@ -1,0 +1,29 @@
+.container
+{
+    width:100%;
+    background-color: rgb(227,227,227);
+    padding:20px 10px;
+    text-align: left;
+    margin-left:-5px;
+    margin-top:-6px;
+    font-size:20px;
+}
+
+.container:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    
+  }
+  
+
+.content
+{
+    display: none;
+}
+
+.container:hover
+{
+    background-color: rgb(204,204,204);
+}

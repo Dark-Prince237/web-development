@@ -1,0 +1,19 @@
+#scrollmenu
+{
+    background-color: rgb(51,51,51);
+    width:100%;
+    height:80px;
+    overflow:auto;
+    white-space:nowrap;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+
+    padding:14px;
+    display: inline-block;
+    
+}

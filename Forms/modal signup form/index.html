@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title> modal login form</title>
+   
+ </head> 
+
+ <body>
+    <div class="container">
+        <b>Modal Login Form</b><br><br>
+        <button onclick="loginUp()">Login</button>
+        <div class="inner-container">
+            <form>
+            
+                <p id="close" onclick="closeLogin()">x</p>
+           
+             <img src="image.png">
+         
+            <label for="user"><b>Username</b></label>
+            <input type="text" placeholder="Enter username" id="user" required><br><br>
+            <label for="pass"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="pass" required><br><br>
+            <input type="submit" value="Login"><br><br>
+            <input type="checkbox" checked> Remember me<br>
+            <input type="reset" value="cancel">
+            <span>Forget </span><a href="#">password?</a>
+            </div>
+        </form>
+       
+    </div>    
+</body>
+<script src="script.js"></script>
+</html> 

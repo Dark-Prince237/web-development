@@ -1,0 +1,29 @@
+#container
+{
+    margin:200px;
+}
+
+    #container div
+{
+    width:350px;
+    height:50px;
+    margin:10px;
+    background-color: black;
+    margin:20px 0;
+    transition: 0.4s
+   
+}
+
+
+  
+  .animate div:first-child{
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-89px, 6px);
+  }
+  
+  .animate div:nth-child(2) {opacity: 0;}
+  
+ .animate div:last-child {
+    transform: rotate(90deg) translate(-58px, -8px);
+    transform: rotate(45deg) translate(-82px, -8px);
+  }
