@@ -1,0 +1,23 @@
+.fcontainer
+{
+    display: flex;
+    border:2px solid grey;
+    height:45vh;
+    align-content:space-around;
+   
+   
+}
+
+.fitem1,.fitem2,.fitem3,.fitem4
+{
+    background-color: violet;
+    border:2px solid black;
+    margin:12px;
+    width:100px;
+    height:100px;
+}
+
+.fitem2
+{
+   
+}

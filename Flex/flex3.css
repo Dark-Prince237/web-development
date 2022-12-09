@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #03a9f4;
+}
+
+.hero {
+  background-color: #d12b1e;
+}
+.content {
+  background-color: #129a22;
+}
+
+.sidebar {
+  background-color: #6639b7;
+}
+
+.footer {
+  background-color: #616161;
+}
+.component div ul {
+  list-style-type: none;
+}
+
+.component div ul li a,
+div p {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.component .header {
+  flex: 0 0 70px;
+  padding: 10px 0px;
+}
+
+.component .hero {
+  flex: 0 0 100px;
+  padding: 10px 0px;
+}
+
+.component .content-container {
+  display: flex;
+  height: 304px;
+}
+.component .content-container .content {
+  flex: 0 0 734px;
+  padding: 10px 0px;
+}
+
+.component .content-container .sidebar {
+  padding: 10px 0px;
+ 
+}
+
+.component.footer {
+  flex: 0 0 50px;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 827px) {
+  .component .content-container {
+    display: flex;
+    height: 304px;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  .component .content-container .content {
+    flex: 0 0 auto;
+  }
+}
+
+

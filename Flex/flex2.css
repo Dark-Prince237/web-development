@@ -1,0 +1,70 @@
+*
+{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header
+{
+    height: auto;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-size: large;
+}
+
+
+nav ul li a:hover
+{
+    color:red;
+    font-size: larger;
+}
+
+nav
+{
+    background-color: #131921;
+    height:40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+   
+    
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+nav ul li
+{
+    padding: 0px 10px;
+    
+}
+
+@media screen and (max-width: 317px)
+{
+    nav
+    {
+        height:auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+        align-items:center ;
+       
+    }
+}
